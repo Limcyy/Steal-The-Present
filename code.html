@@ -1,177 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>text styler</title>
-    <link rel="stylesheet" href="https://api.ssps.cajthaml.eu/file/64d9f18f79dad891e8a07c73">
-<style>
-    
-    .randompickerlololo {
-        color: #124802;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Game</title>
+  <link rel="stylesheet" href="https://api.ssps.cajthaml.eu/file/64d9f18f79dad891e8a07c73">
+  <style>
 
+    body {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
     }
-.button-28 {
-  appearance: none;
-  background-color: transparent;
-  border: 2px solid #1A1A1A;
-  border-radius: 20px;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  color: #000000;
-  margin: 0;
-  height: 70px;
-  width: 120px;
-  outline: none;
-  padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  
- 
-  will-change: transform;
-}
-
-.button-28:disabled {
-  pointer-events: none;
-}
-
-.button-28:hover {
-  color: #fff;
-  background-color: #000000;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.button-28:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-.input {
-border: #000000;
-}
-.box {
-   background-size: contain;
-  background-image: url(src/pixil-frame-0-7.png);
-  position: absolute;
-  
-  width: 60px;
-  height: 60px;
-  
-}
-
-.box2 {
-    position: absolute;
-    background-image: url(src/pixil-frame-0-5.png);
-    background-size: contain;
-    width: 60px;
-    height: 60px;
     
-}
+    .Elfs {
+      background-size: contain;
+      background-image: url(src/pixil-frame-0-7.png);
+      position: absolute;
+      width: 60px;
+      height: 60px;
+    }
 
-.right {
-    margin-top: 100px;
-}
-.bo {
-    position: absolute;
-    background-size: contain;
-    background-image: url(src/pixil-frame-0-10.png);
-    width: 160px;
-    height: 98px;
-}
-.boxx {
-    background-size: contain;
-  background-image: url(src/pixil-frame-0-7.png);
-  position: absolute;
-  
-  width: 60px;
-  height: 60px;
-}
-.boxxx {
-    background-size: contain;
-  background-image: url(src/pixil-frame-0-8.png);
-  position: fixed;
-  right: 0px;
-  bottom: 440px;
-  width: 90px;
-  height: 90px;
-}
-.ball {
-    background-size: contain;
-  background-image: url(src/pixil-frame-0-9.png);
-  position: absolute;
- 
-  width: 15px;
-  height: 15px;
-}
-.retryButton {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  width: 392px;
-  height: 72px;
-  background-image: url(src/pixil-frame-0-16.png);
-  border: 0px solid #1A1A1A;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  padding: 16px 24px;
-  text-align: center;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  touch-action: manipulation;
-  will-change: transform;
-}
+    .player {
+      position: absolute;
+      background-image: url(src/pixil-frame-0-5.png);
+      background-size: contain;
+      width: 60px;
+      height: 60px;
+    }
 
-.retryButton:disabled {
-  pointer-events: none;
-}
+    .gift {
+      position: absolute;
+      background-size: contain;
+      background-image: url(src/pixil-frame-0-10.png);
+      width: 160px;
+      height: 98px;
+    }
 
-.retryButton:hover {
-  
-  transform: translateY(-2px);
-}
+    .shootingElf {
+      background-size: contain;
+      background-image: url(src/pixil-frame-0-8.png);
+      position: fixed;
+      right: 0px;
+      bottom: 440px;
+      width: 90px;
+      height: 90px;
+    }
 
-.retryButton:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-.text {
-position: fixed;
-left: 10px;
-top: 10px;
-color: #fff;
-width: 1000;
-font-size: 32px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .ball {
+      background-size: contain;
+      background-image: url(src/pixil-frame-0-9.png);
+      position: absolute;
+      width: 15px;
+      height: 15px;
+    }
 
+    .retryButton {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      width: 392px;
+      height: 72px;
+      background-image: url(src/pixil-frame-0-16.png);
+      border: 0px solid #1A1A1A;
+      border-radius: 3px;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 16px;
+      font-weight: 600;
+      padding: 16px 24px;
+      text-align: center;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      touch-action: manipulation;
+    }
 
+    .retryButton:hover {
+      transform: translateY(-2px);
+    }
 
+    .retryButton:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
 
-}
-</style>
+  </style>
 </head>
+
 <body>
-    <main>
-      <p id="text" class="text">sssss</p>
-        <div class="ball" id="ball"></div>
-        <div class="box2" id="box2"></div>
-        <div class="box" id="box"></div>
-        <div class="box" id="boxX"></div>
-        <div class="bo" id="bo"></div>
-        <div class="boxxx" id="boxxx"></div>
-        <button class="retryButton" id="retryButton"></button>
-    </main>
-    <script src="code.js"></script>
+  <main>
+    <div class="ball" id="ball"></div>
+    <div class="player" id="player"></div>
+    <div class="Elfs" id="slowElf"></div>
+    <div class="Elfs" id="fastElf"></div>
+    <div class="gift" id="gift"></div>
+    <div class="shootingElf" id="shootingElf"></div>
+    <button class="retryButton" id="retryButton"></button>
+  </main>
+  <script src="code.js"></script>
 </body>
+
 </html>
