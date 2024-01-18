@@ -1,6 +1,6 @@
 Try to get the CHRISMAS GIFT without getting caught by the ELFS
 
-I made this GAME with JS, CSS, HTML.
+I made this GAME with JS, CSS, HTML and PIXILART.
 
 EVERY ILLUSTRATION in this GAME is made by ME.
 
