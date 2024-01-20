@@ -95,7 +95,7 @@ fastElf.style.left = 30 * 14 + "px"
 
 function fastElfMoving() {
 
-  fastElfPosition += 20 * fastElfDirection;
+  fastElfPosition += 5 * fastElfDirection;
 
   if (fastElfPosition > maxHeight || fastElfPosition === 0) {
     fastElfDirection *= -1;
@@ -119,7 +119,7 @@ snowBall.style.right = 90 + "px"
 
 function snowBallMoving() {
   
-  snowBallPosition += 6 * snowBallDirection;
+  snowBallPosition += 4 * snowBallDirection;
 
   if (snowBallPosition > maxWidth + 90 || snowBallPosition === 0) {
     snowBallPosition = 90
