@@ -72,7 +72,7 @@ const secondImage = 'url(src/pixil-frame-0-6.png)';
 
 let slowElfCurrentImage = firstImage;
 
-slowElf.style.left = 30 * 20 + "px"
+slowElf.style.left = 30 * 22 + "px"
 function slowElfMoving() {
 
   slowElfPosition += 4 * slowElfDirection;
